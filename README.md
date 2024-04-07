@@ -1,4 +1,4 @@
-# Multi-Signature Wallet Implementation README
+# Multi-Signature Wallet Implementation 
 
 ## Overview
 This repository contains a simple implementation of a multi-signature wallet on a blockchain using Hardhat. Multi-signature wallets, often referred to as multisig wallets, require multiple signatures (or approvals) to authorize a transaction, providing added security compared to single-signature wallets.
@@ -34,7 +34,7 @@ To get started with this implementation, follow these steps:
     ```
     npx hardhat test
     ```
-
+feel free to add new tests and raise a PR 
 ## Usage
 Here are the basic steps to utilize the multi-signature wallet:
 
@@ -43,14 +43,6 @@ Here are the basic steps to utilize the multi-signature wallet:
 3. **Initiate a Transaction**: Begin a transaction by specifying the details such as the recipient and the amount.
 4. **Sign the Transaction**: Sign the transaction with the required number of signatories. Ensure that the transaction receives the necessary number of approvals.
 5. **Execute the Transaction**: Once the required number of signatories have approved the transaction, execute it to transfer the funds.
-6. **Monitor and Manage**: Continuously monitor the wallet for transactions and manage signatories as needed.
-
-## Contributors
-- [Your Name](https://github.com/your-username)
-- [Additional Contributors if any]
-
-## License
-[Insert License Here]
 
 ## Acknowledgments
 - [Hardhat](https://hardhat.org/): Development environment for Ethereum smart contracts.
